@@ -1,4 +1,5 @@
 # bookmarks
 
-https://github.com/kamranahmedse/developer-roadmap
-https://www.youtube.com/watch?v=5XhxR9Vs6zc&t=281s
+* https://github.com/kamranahmedse/developer-roadmap
+* https://www.youtube.com/watch?v=5XhxR9Vs6zc&t=281s
+  
