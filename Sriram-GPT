@@ -14,31 +14,7 @@ Please create a training loop that feeds batches through the model, calculates l
 and updates weights. Add checkpointing every few hundred steps. Include loss curve visualization with matplotlib or 
 tensorboard and progress bars. Train for 2-3 epochs or until loss stabilizes. Add validation loss tracking and optimize for GPU efficiency.
 
+Please create a Python Desktop GUI where we can test the created model. Create an inference script that loads the trained model 
+and generates text from prompts. Implement temperature control and top-k/top-p sampling.
 
 ```
-
-
-Build a transformer-based language model from scratch with the following specifications:
-
-## Model Architecture
-- **Style:** GPT (autoregressive, decoder-only)
-- **Target size:** 100–200M parameters
-- **Layers:** 12 transformer blocks
-- **Hidden dimensions:** 768
-- **Attention heads:** 12 (multi-head attention)
-
-## Components
-- Embedding layers (token + positional)
-- Multi-head self-attention
-- Feed-forward layers
-- Layer normalization
-
-## Training Configuration
-- **Optimizer:** Adam
-- **Objective:** Next-token prediction
-- **Mixed precision:** Enabled
-- **Gradient checkpointing:** Enabled
-
-## Output
-- Model summary
-- Total parameter count
