@@ -1,8 +1,20 @@
 # GPT-Style Transformer Language Model
 ```
+
+Please set up a Python environment for training a language model from scratch. Install PyTorch with Metal/MPS support for Apple Silicon,
+transformers library, datasets, tokenizers, numpy, matplotlib, and tqdm. 
+Configure everything to use my Apple M1 GPU via MPS (Metal Performance Shaders) and verify MPS detection. Set up a project structure with 
+folders for data, models, and scripts.
+
 Please build a transformer-based language model from scratch. Create a GPT-style model with 100-200M parameters for my GPU. 
 Include embedding layers, multi-head attention, feed-forward layers, and layer normalization. Use 12 layers, 768 hidden dimensions, 12 attention heads. 
 Setup up Adam optimizer and configure for next-token prediction. Use mixed precision and gradient checkpointing. Show model summary and parameter count.
+
+Please create a training loop that feeds batches through the model, calculates loss,
+and updates weights. Add checkpointing every few hundred steps. Include loss curve visualization with matplotlib or 
+tensorboard and progress bars. Train for 2-3 epochs or until loss stabilizes. Add validation loss tracking and optimize for GPU efficiency.
+
+
 ```
 
 
