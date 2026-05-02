@@ -6,6 +6,10 @@ transformers library, datasets, tokenizers, numpy, matplotlib, and tqdm.
 Configure everything to use my Apple M1 GPU via MPS (Metal Performance Shaders) and verify MPS detection. Set up a project structure with 
 folders for data, models, and scripts.
 
+Please create a data preprocessing pipeline for training a language model. Download a small text dataset (500MB-1GB) like Wikipedia subset or public domain books. 
+Implement GPT-2 style tokenization to convert text into numerical tokens. 
+Create data loaders with batching and split into 80/20 training/validation sets. Show sample tokenized outputs to verify it works.
+
 Please build a transformer-based language model from scratch. Create a GPT-style model with 100-200M parameters for my GPU. 
 Include embedding layers, multi-head attention, feed-forward layers, and layer normalization. Use 12 layers, 768 hidden dimensions, 12 attention heads. 
 Setup up Adam optimizer and configure for next-token prediction. Use mixed precision and gradient checkpointing. Show model summary and parameter count.
